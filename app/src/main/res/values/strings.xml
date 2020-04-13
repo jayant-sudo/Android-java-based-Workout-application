@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Workout App</string>
+    <string name="title">Title</string>
+    <string name="_1_min">1 min</string>
+    <string name="todo">TODO</string>
+    <string name="random_exercise">Random Exercise</string>
+    <string name="Day_wise_mode">Day wise mode</string>
+    <string name="start">Start</string>
+    <string name="monday">Monday</string>
+    <string name="day">Monday</string>
+    <string name="exercise">Excercise</string>
+    <string name="click">Click</string>
+    <string name="random_mode">Random mode</string>
+    <string name="ok">ok</string>
+    <string name="image">image</string>
+    <string name="choose_your_mode">Choose your mode</string>
+    <string name="play">play</string>
+    <string name="random_image">random_image</string>
+    <string name="time">time</string>
+    <string name="random_workouts">Random Workouts</string>
+    <string name="instruction">Instruction !!!</string>
+    <string name="warnings">1). Each exercise are of 2 mintues!!\n 2). For each exercise different music will play!!\n 3).And All music will play automatically!!\n 4). After finishing one exercise you will get 40 seconds of break and after that music will start with your exercise!!</string>
+</resources>

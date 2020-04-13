@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView app:cardCornerRadius="10dp"
+    app:cardElevation="10dp"
+    app:cardMaxElevation="10dp"
+    app:cardBackgroundColor="#5cb85c"
+    app:contentPadding="5dp"
+    android:padding="10dp"
+    android:layout_margin="5dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+   <RelativeLayout
+       android:background="#fff"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+       <TextView
+           android:id="@+id/random_title"
+           android:text="@string/title"
+           android:fontFamily="@font/pacifico"
+           android:layout_alignParentStart="true"
+           android:textAppearance="@style/TextAppearance.AppCompat.Large"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignParentLeft="true" />
+       <ImageButton
+           android:id="@+id/play"
+           android:background="#fff"
+           android:src="@drawable/play"
+           android:layout_alignParentEnd="true"
+           android:layout_width="80dp"
+           android:layout_height="80dp"
+           android:layout_alignParentRight="true"
+           android:contentDescription="@string/play" />
+        <ImageView
+            android:id="@+id/workout_image"
+            android:src="@drawable/ninth"
+            android:layout_below="@id/random_title"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:contentDescription="@string/random_image" />
+          <TextView
+              android:id="@+id/workout_time"
+              android:fontFamily="@font/pacifico"
+              android:textAppearance="@style/TextAppearance.AppCompat.Large"
+              android:text="@string/time"
+              android:layout_below="@id/workout_image"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"/>
+   </RelativeLayout>
+</androidx.cardview.widget.CardView>

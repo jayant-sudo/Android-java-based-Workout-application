@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RandomWorkoutActivity">
+    <androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    app:cardMaxElevation="10dp"
+    app:cardUseCompatPadding="true"
+    app:cardBackgroundColor="#5cb85c"
+    app:contentPadding="5dp"
+    app:cardElevation="10dp"
+    app:cardCornerRadius="10dp"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:background="#fff"
+            android:layout_height="wrap_content"
+            android:text="@string/random_workouts"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:fontFamily="@font/pacifico"
+            android:gravity="center_horizontal|center_vertical"
+            />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
+  <androidx.recyclerview.widget.RecyclerView
+      android:id="@+id/random_recyclerview"
+      android:layout_width="match_parent"
+      tools:listitem="@layout/random_each_row"
+      android:layout_height="match_parent"/>
+</LinearLayout>
