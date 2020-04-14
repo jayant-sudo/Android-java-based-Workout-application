@@ -51,20 +51,20 @@ public class MainActivity extends AppCompatActivity {
                 R.drawable.seventh,R.drawable.eight,R.drawable.ninth,R.drawable.tenth,R.drawable.eleventh,R.drawable.twleth,
                 R.drawable.thirteen,R.drawable.forteen};
 
-        workoutList.add(new Workout("Push up",covers[0],2,R.drawable.tick));
-        workoutList.add(new Workout("Sit up",covers[1],2,R.drawable.tick));
-        workoutList.add(new Workout("Crunch",covers[2],2,R.drawable.tick));
-        workoutList.add(new Workout("Back exercise",covers[3],2,R.drawable.tick));
-        workoutList.add(new Workout("Knee exercise",covers[4],2,R.drawable.tick));
-        workoutList.add(new Workout("Jumping jacks",covers[5],2,R.drawable.tick));
-        workoutList.add(new Workout("Deadlifts",covers[6],2,R.drawable.tick));
-        workoutList.add(new Workout("Ball crunch",covers[7],2,R.drawable.tick));
-        workoutList.add(new Workout("Yoga",covers[8],2,R.drawable.tick));
-        workoutList.add(new Workout("Pull up",covers[9],2,R.drawable.tick));
-        workoutList.add(new Workout("Incline bench press",covers[10],2,R.drawable.tick));
-        workoutList.add(new Workout("Dumball flye",covers[11],2,R.drawable.tick));
-        workoutList.add(new Workout("Hack squat ",covers[12],2,R.drawable.tick));
-        workoutList.add(new Workout("Bench crunches",covers[13],2,R.drawable.tick));
+        workoutList.add(new Workout("Push up",covers[0],60,R.drawable.tick));
+        workoutList.add(new Workout("Sit up",covers[1],60,R.drawable.tick));
+        workoutList.add(new Workout("Crunch",covers[2],60,R.drawable.tick));
+        workoutList.add(new Workout("Back exercise",covers[3],60,R.drawable.tick));
+        workoutList.add(new Workout("Knee exercise",covers[4],60,R.drawable.tick));
+        workoutList.add(new Workout("Jumping jacks",covers[5],60,R.drawable.tick));
+        workoutList.add(new Workout("Deadlifts",covers[6],60,R.drawable.tick));
+        workoutList.add(new Workout("Ball crunch",covers[7],60,R.drawable.tick));
+        workoutList.add(new Workout("Yoga",covers[8],60,R.drawable.tick));
+        workoutList.add(new Workout("Pull up",covers[9],60,R.drawable.tick));
+        workoutList.add(new Workout("Incline bench press",covers[10],60,R.drawable.tick));
+        workoutList.add(new Workout("Dumball flye",covers[11],60,R.drawable.tick));
+        workoutList.add(new Workout("Hack squat ",covers[12],60,R.drawable.tick));
+        workoutList.add(new Workout("Bench crunches",covers[13],60,R.drawable.tick));
         Collections.shuffle(workoutList);
     }
     private void click()

@@ -26,7 +26,7 @@
         android:layout_width="match_parent"
         android:background="#fff"
         android:layout_height="wrap_content"
-        android:text="@string/random_mode"
+        android:text="@string/Allworkouts"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:fontFamily="@font/pacifico"
         android:gravity="center_horizontal|center_vertical"
@@ -53,7 +53,7 @@
       android:layout_height="match_parent">
    <Button
        android:id="@+id/start"
-       android:text="@string/start"
+       android:text="@string/random_workouts"
        android:textAppearance="@style/TextAppearance.AppCompat.Large"
        android:fontFamily="@font/pacifico"
        android:background="#5cb85c"

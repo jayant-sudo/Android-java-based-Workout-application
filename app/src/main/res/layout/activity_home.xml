@@ -51,7 +51,7 @@
           android:id="@+id/random"
           android:textSize="40sp"
           android:textAppearance="@style/TextAppearance.AppCompat.Large"
-          android:text="@string/random_mode"
+          android:text="@string/showallworkouts"
           android:fontFamily="@font/pacifico"
           android:background="@drawable/ninth"
           android:layout_width="match_parent"

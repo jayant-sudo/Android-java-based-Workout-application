@@ -20,4 +20,10 @@
     <string name="random_workouts">Random Workouts</string>
     <string name="instruction">Instruction !!!</string>
     <string name="warnings">1). Each exercise are of 2 mintues!!\n 2). For each exercise different music will play!!\n 3).And All music will play automatically!!\n 4). After finishing one exercise you will get 40 seconds of break and after that music will start with your exercise!!</string>
+    <string name="counter">Counter</string>
+    <string name="countdown">countdown</string>
+    <string name="it_s_break_time">It\'s Break Time</string>
+    <string name="let_s_start">Let\'s Start</string>
+    <string name="showallworkouts">Show All Workouts</string>
+    <string name="Allworkouts">All Workouts</string>
 </resources>

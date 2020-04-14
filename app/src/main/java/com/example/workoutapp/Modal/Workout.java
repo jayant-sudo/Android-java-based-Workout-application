@@ -76,7 +76,7 @@ public class Workout implements Parcelable {
     public void writeToParcel(Parcel parcel, int i) {
         parcel.writeString(title);
         parcel.writeInt(image);
-        parcel.writeInt(time);
+        parcel.writeFloat( time);
         parcel.writeInt(tick);
     }
 }

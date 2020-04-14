@@ -36,7 +36,7 @@ public class RecylerViewAdapter extends RecyclerView.Adapter<RecylerViewAdapter.
     public void onBindViewHolder(@NonNull RecylerViewAdapter.ViewHolder holder, int position) {
       Workout workout=workoutList.get(position);
       holder.title.setText(workout.getTitle());
-      holder.time.setText(String.valueOf(workout.getTime())+" min");
+      holder.time.setText(String.valueOf(workout.getTime())+" secs");
 
         Glide
                 .with(context)

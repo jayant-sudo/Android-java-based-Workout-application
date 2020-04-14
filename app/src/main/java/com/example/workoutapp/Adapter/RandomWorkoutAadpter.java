@@ -1,18 +1,19 @@
 package com.example.workoutapp.Adapter;
 
 import android.content.Context;
+import android.media.MediaPlayer;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
-import com.bumptech.glide.load.resource.bitmap.CenterCrop;
 import com.example.workoutapp.Modal.RandomWorkout;
 import com.example.workoutapp.R;
 
@@ -22,6 +23,7 @@ public class RandomWorkoutAadpter extends RecyclerView.Adapter<RandomWorkoutAadp
 
    private Context context;
    private List<RandomWorkout> randomWorkoutList;
+   private MediaPlayer mediaPlayer;
 
     public RandomWorkoutAadpter(Context context, List<RandomWorkout> randomWorkoutList) {
         this.context = context;
@@ -36,10 +38,10 @@ public class RandomWorkoutAadpter extends RecyclerView.Adapter<RandomWorkoutAadp
     }
 
     @Override
-    public void onBindViewHolder(@NonNull RandomViewHolder holder, int position) {
+    public void onBindViewHolder(@NonNull final RandomViewHolder holder, int position) {
         RandomWorkout randomWorkout=randomWorkoutList.get(position);
         holder.random_title.setText(randomWorkout.getTitle());
-        holder.random_time.setText(randomWorkout.getTime()+" min");
+        holder.random_time.setText(randomWorkout.getTime()+" secs");
         Glide.with(context)
                 .load(randomWorkout.getPlay_image())
                 .placeholder(R.drawable.play)
@@ -48,8 +50,8 @@ public class RandomWorkoutAadpter extends RecyclerView.Adapter<RandomWorkoutAadp
         Glide.with(context)
                 .load(randomWorkout.getImage())
                 .placeholder(R.drawable.eleventh)
-               // .centerCrop()
                 .into(holder.workout_image);
+
     }
 
     @Override
